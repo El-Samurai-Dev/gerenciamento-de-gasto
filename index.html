@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Compras</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Lista de Compras</h1>
+        <div id="items-container">
+            <div class="item">
+                <input type="number" class="quantidade" placeholder="Qtd" required>
+                <input type="text" class="nome" placeholder="Nome do item" required>
+                <input type="number" class="preco" placeholder="Preço" step="0.01" required>
+            </div>
+        </div>
+        <button id="add-item">Adicionar Item</button>
+        <button id="calcular-total">Calcular Total</button>
+        <button id="resetarButton">Resetar</button>
+        <div id="resultado"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
