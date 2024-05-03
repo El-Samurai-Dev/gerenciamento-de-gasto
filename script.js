@@ -27,12 +27,12 @@ document.addEventListener('DOMContentLoaded', function() {
         resultado.textContent = `Total: R$ ${total.toFixed(2)}`;
     });
 
-    resetarButton.addEventListener('click', function() {
-        itemsContainer.innerHTML = ` 
-            <input type="number" class="quantidade" placeholder="Qtd">
-            <input type="text" class="nome" placeholder="Nome do item">
-            <input type="number" class="preco" placeholder="Preço"
-        `;
-        resultado.textContent = '';
-    });
+    // resetarButton.addEventListener('click', function() {
+    //     itemsContainer.innerHTML = ` 
+    //         <input type="number" class="quantidade" placeholder="Qtd">
+    //         <input type="text" class="nome" placeholder="Nome do item">
+    //         <input type="number" class="preco" placeholder="Preço"
+    //     `;
+    //     resultado.textContent = '';
+    // });
 });
