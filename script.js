@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function() {
     const addItemButton = document.getElementById('add-item');
     const calcularTotalButton = document.getElementById('calcular-total');
-    const resetAll = document.getElementById('reset-all');
+    const resetAllButton = document.getElementById('reset-all');
     const itemsContainer = document.getElementById('items-container');
     const resultado = document.getElementById('resultado');
 
