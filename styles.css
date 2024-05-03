@@ -77,7 +77,32 @@ button:hover {
 }
 
 @media (max-width: 768px) {
+    body {
+        width: 100px;
+    }
     .container {
-        width: 150%;
+        max-width: 400%;
+        margin-left: 290%;
+    }
+
+    h2 {
+        text-align: center;
+    }
+    
+    .item {
+        display: flex;
+        margin-bottom: 1px;
+    }
+    
+    input {
+        flex: 1;
+        padding: 1px;
+        margin-right: 1px;
+        max-width: 34%;
+    }
+
+    button {
+        width: 100%;
     }
 }
+
