@@ -75,3 +75,9 @@ button:hover {
     border-radius: 5px;
     background-color: #4a535c;
 }
+
+@media (max-width: 768px) {
+    .container {
+        width: 150%;
+    }
+}
